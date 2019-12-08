@@ -76,7 +76,7 @@ p1 {
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,.9);
 }
 
 section {
@@ -248,7 +248,8 @@ header .header-content .header-content-inner p {
 }
 
 .team-box h5 {
-    margin: 8px auto 0;
+    margin: 10px auto 0;
+    color: #222;
     font-size: 16px;
     line-height: 1.0;
 }

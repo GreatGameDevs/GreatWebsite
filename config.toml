@@ -96,7 +96,7 @@ theme = "hugo-creative-theme"
 		[[params.services.list]]
             icon = "fas fa-puzzle-piece"
             title = "Solve Riddles"
-            description = "solve enjoyable riddles to help the Santa and cute animal inhabitants"
+            description = "solve enjoyable riddles to deliver gifts to cute animal inhabitants"
 
         [[params.services.list]]
 			icon = "fas fa-meteor"
@@ -125,22 +125,27 @@ theme = "hugo-creative-theme"
 
         [[params.team.list]]
             img = "https://avatars0.githubusercontent.com/u/12912542"
-            title = "Akash Menon"
+            link = "https://github.com/urbanturban"
+			title = "Akash Menon"
 
         [[params.team.list]]
             img = "https://avatars0.githubusercontent.com/u/38287092"
+			link = "https://github.com/hedvigf"
 			title = "Hedvig Fahlstedt"
 
 		[[params.team.list]]
             img = "https://avatars0.githubusercontent.com/u/9079360"
+			link = "https://github.com/jianguda"
             title = "Jian Gu"
 
         [[params.team.list]]
             img = "https://avatars0.githubusercontent.com/u/43722195"
+			link = "https://github.com/thelmasv"
             title = "Thelma Svenns"
 
         [[params.team.list]]
             img = "https://avatars0.githubusercontent.com/u/13755038"
+			link = "https://github.com/TNielsen92pro"
             title = "Timmy Nielsen"
 
     # Aside section

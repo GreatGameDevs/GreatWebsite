@@ -16,7 +16,9 @@
             {{ range .list }}
             <div class="col-xl-auto text-center">
                 <div class="team-box">
-                    <img src="{{ .img }}" class="img-responsive" alt="">
+                    <a href="{{ .link }}" target="_blank">
+                        <img src="{{ .img }}" class="img-responsive">
+                    </a>
                     <!-- <i class="{{ .icon }} fa-4x wow bounceIn text-primary"></i> -->
                     <h5>{{ .title }}</h5>
                     <!-- {{ with .description }}
