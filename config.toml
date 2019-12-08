@@ -1,4 +1,4 @@
-baseurl = "https://xmashero.netlify.com/"
+baseurl = "https://christmashero.netlify.com/"
 languageCode = "en-us"
 title = "Christmas Hero"
 theme = "hugo-creative-theme"
@@ -38,6 +38,10 @@ theme = "hugo-creative-theme"
 			href = "#features"
 
 		[[params.navigation.links]]
+			title = "Video"
+			href = "#video"
+
+		[[params.navigation.links]]
 			title = "Scenes"
 			href = "#scenes"
 
@@ -58,15 +62,15 @@ theme = "hugo-creative-theme"
 
 	# About section
 	[params.about]
+		sectionid   = "story"
 		headline    = "Story"
 		description = "It is Christmas time and Christmas gifts are about to be delivered to the inhabitants in the village. Sadly, Santa and the reindeers has been in a minor mishap and the Christmas gifts have been strewn all over the world. This has made the spirit of Christmas fall and the world is about to miss Christmas and all that comes around if the Christmas gifts are not being delivered. By delivering gifts and fighting monsters the Christmas Spirit will gradually increase until it is fully restored. The task for the player is to bring back the spirit of Christmas and be a Christmas Hero."
 		buttonText  = "Get started!"
-		sectionid   = "story"
 
 	# Service section
 	[params.services]
-		headline = "Features"
 		sectionid = "features"
+		headline = "Features"
 
         [[params.services.list]]
             icon = "fas fa-cubes"
@@ -106,7 +110,20 @@ theme = "hugo-creative-theme"
         [[params.services.list]]
             icon = "fas fa-rainbow"
             title = "Progressive World"
-            description = "everything in the game will gradually be more christmassy"
+            description = "everything in the game will gradually become more christmassy"
+
+    # Hero Area Section
+    [params.video]
+		sectionid = "video"
+        heading = "Christmas Hero"
+        description = "Santa has lost some of the gifts in his sleigh and need help to find them and deliver them to the animals they are meant for. The player is controlling a little elf in third person perspective, and the gifts are spread around a winter world. When the player finds a gift, it comes with a riddle that gives hints on how to find the way to the gift receiver’s house. When the elf has carried the gift to the correct house, Christmas decorations will start flourishing and the next objective will be provided. On the way to the house, the elf can encounter monsters that will try to stop the elf from delivering the gift. To fight the monster, the elf can throw snowballs at it. The game has a progressive aspect to it, making the world and everything in it more and more Christmas-like when completing gift delivery."
+        thumb = "thumb.png"
+        link = "//player.vimeo.com/video/378384448"
+        # link = "//www.youtube.com/embed/g3-VxLQO7do"
+
+		[params.video.button]
+			text = "Download Now"
+			link = "//github.com/GreatGameDevs/GreatGame/releases/tag/v1.0.0"
 
     # Portfolio modals
 	[params.portfolio]
@@ -120,8 +137,8 @@ theme = "hugo-creative-theme"
 
 	# Service section
 	[params.team]
-		headline = "Team"
 		sectionid = "team"
+		headline = "Team"
 
         [[params.team.list]]
             img = "https://avatars0.githubusercontent.com/u/12912542"
@@ -153,20 +170,20 @@ theme = "hugo-creative-theme"
 		headline = "Be Christmas Hero Right Now"
 
 		[params.aside.button]
-			text = "Project Repo"
-			link = "//github.com/GreatGameDevs/GreatGame"
+			text = "Download"
+			link = "//github.com/GreatGameDevs/GreatGame/releases/tag/v1.0.0"
 
 	# Contact section
 	# [params.contact]
+	# 	sectionid = "contact"
 	# 	headline = "Contact us"
 	# 	description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
 	# 	phone = "123-456-6789"
 	# 	email = "feedback@startbootstrap.com"
-	# 	sectionid = "contact"
 
 	# Openstreetmap section
 	# [params.location]
+	#   sectionid = "location"
 	# 	latitude  = 34.007850
 	# 	longitude = -118.499305
 	#   popup = "Our location"
-	#   sectionid = "location"

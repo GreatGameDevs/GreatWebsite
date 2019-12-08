@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
+
 html,
 body {
     width: 100%;
@@ -51,17 +55,20 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Lato', Courier, monospace;
+    /* font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; */
 }
 
 p0 {
     margin-bottom: 20px;
+    font-family: 'Lato', Courier, monospace;
     font-size: 20px;
     line-height: 1.5;
 }
 
 p1 {
     margin-bottom: 20px;
+    font-family: 'Lato', Courier, monospace;
     font-size: 16px;
     line-height: 1.0;
 }
@@ -84,7 +91,7 @@ section {
 }
 
 aside {
-    padding: 50px 0;
+    padding: 0px 0;
 }
 
 .no-padding {
@@ -93,7 +100,9 @@ aside {
 
 .navbar {
     border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Lato', Courier, monospace;
+    font-size: 18px;
+    /* font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; */
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -102,7 +111,9 @@ aside {
 
 .navbar .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 24px;
+    font-family: 'Mountains of Christmas', cursive;
+    /* font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; */
     font-weight: 700;
     color: #f05f40;
 }
@@ -161,12 +172,13 @@ header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
+    font-family: 'Mountains of Christmas', cursive;
     font-weight: 700;
 }
 
 header .header-content .header-content-inner hr {
     margin: 20px auto;
-    margin-bottom: 260px;
+    margin-bottom: 220px;
 }
 
 header .header-content .header-content-inner p {
@@ -206,6 +218,9 @@ header .header-content .header-content-inner p {
 }
 
 .section-heading {
+    font-family: 'Mountains of Christmas', cursive;
+    font-weight: 400;
+    font-size: 64px;
     margin-top: 0;
 }
 
@@ -220,11 +235,14 @@ header .header-content .header-content-inner p {
     }
 }
 
-.service-box p {
+.service-box p1 {
     margin-bottom: 0;
 }
 
 .service-box h3 {
+    font-family: 'Lato', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
     margin: 10px auto 0;
 }
 
@@ -250,7 +268,8 @@ header .header-content .header-content-inner p {
 .team-box h5 {
     margin: 10px auto 0;
     color: #222;
-    font-size: 16px;
+    font-family: 'Lato', Courier, monospace;
+    font-size: 18px;
     line-height: 1.0;
 }
 
@@ -298,7 +317,8 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Lato', Courier, monospace;
+    /* font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; */
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -308,7 +328,7 @@ header .header-content .header-content-inner p {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .portfolio-box:hover .portfolio-box-caption {
@@ -321,7 +341,7 @@ header .header-content .header-content-inner p {
     }
 
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 22px;
+        font-size: 24px;
     }
 }
 
@@ -448,7 +468,9 @@ fieldset[disabled] .btn-primary.active {
     border: 0;
     border-radius: 300px;
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Titillium Web', Courier, monospace;
+    /* font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; */
+    font-size: 18px;
     font-weight: 700;
 }
 

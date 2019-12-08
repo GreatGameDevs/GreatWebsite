@@ -1,0 +1,35 @@
+{{ "<!-- Hero Area -->" | safeHTML }}
+{{ with .Site.Params.video }}
+<section class="hero-area" id="{{ .sectionid }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="video-player">
+                    <!-- <img class="img-fluid rounded" src="img/thumb/{{ .thumb }}" alt="video-thumb"> -->
+                    <a class="play-icon" href="javascript:void(0)">
+                        <i class="tf-ion-play" data-video="{{ .link }}?autoplay=1"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="block">
+                    {{ with .heading }}
+                    <h2>{{ . }}</h2>
+                    {{ end }}
+                    {{ with .description }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+                    {{ if and .button.link .button.text }}
+                    <!-- <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
+                        <li class="list-inline-item"> -->
+                    <a href="{{ .button.link }}" target="_blank"
+                        class="btn btn-primary btn-xl wow tada">{{ .button.text }}</a>
+                    <!-- </li>
+                    </ul> -->
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

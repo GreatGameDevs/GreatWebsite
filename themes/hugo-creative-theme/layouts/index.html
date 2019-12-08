@@ -20,6 +20,10 @@
     {{ partial "services.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.video }}
+    {{ partial "video.html" . }}
+    {{ end }}
+
     {{ if .Site.Data.projects }}
     {{ partial "portfolio.html" . }}
     {{ end }}
@@ -36,9 +40,9 @@
     {{ partial "aside.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.contact }}
+    <!-- {{ if .Site.Params.contact }}
     {{ partial "contact.html" . }}
-    {{ end }}
+    {{ end }} -->
 
     <!-- {{ if .Site.Data.projects }}
     {{ partial "modals.html" . }}
