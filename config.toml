@@ -71,42 +71,42 @@ theme = "hugo-creative-theme"
         [[params.services.list]]
             icon = "fas fa-cubes"
             title = "Low-Poly Art"
-            description = "Our templates are updated regularly so they don't break."
+            description = "appear blocky and simple while still maintaining the basic shapes"
 
         [[params.services.list]]
 			icon = "fas fa-grin-stars"
 			title = "Child Friendly"
-			description = "You can use this theme as is, or you can make changes!"
+			description = "lots of changes are made to be applicable to the younger audience"
 
 		[[params.services.list]]
             icon = "fas fa-gifts"
             title = "Festival Theme"
-            description = "We update dependencies to keep things fresh."
+            description = "sincerely and seriously created for the upcoming big festival"
 
         [[params.services.list]]
             icon = "fas fa-chess"
             title = "Easy Operation"
-            description = "You have to make your websites with love these days!"
+            description = "the only operation needed in the experience, is clicking or tapping"
 
         [[params.services.list]]
             icon = "fas fa-theater-masks"
             title = "Emotional Roles"
-            description = "Our templates are updated regularly so they don't break."
-
-        [[params.services.list]]
-			icon = "fas fa-meteor"
-			title = "Fight Evil"
-			description = "You can use this theme as is, or you can make changes!"
+            description = "roles in the game have emotions, but they are not hard to understand"
 
 		[[params.services.list]]
             icon = "fas fa-puzzle-piece"
             title = "Solve Riddles"
-            description = "We update dependencies to keep things fresh."
+            description = "solve enjoyable riddles to help the Santa and cute animal inhabitants"
+
+        [[params.services.list]]
+			icon = "fas fa-meteor"
+			title = "Snowball Fight"
+			description = "do not be afraid, scare the naughty monster away using snowballs"
 
         [[params.services.list]]
             icon = "fas fa-rainbow"
             title = "Progressive World"
-            description = "You have to make your websites with love these days!"
+            description = "everything in the game will gradually be more christmassy"
 
     # Portfolio modals
 	[params.portfolio]
