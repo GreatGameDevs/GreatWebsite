@@ -1,0 +1,13 @@
+{{ "<!-- ASIDE -->" | safeHTML }}
+{{ with .Site.Params.aside }}
+<aside class="bg-dark">
+    <div class="container text-center">
+        <div class="call-to-action">
+            {{ with .headline }}<h2>{{ . }}</h2>{{ end }}
+            {{ if and .button.link .button.text }}
+            <a href="{{ .button.link }}" class="btn btn-primary btn-xl wow tada">{{ .button.text }}</a>
+            {{ end }}
+        </div>
+    </div>
+</aside>
+{{ end }}

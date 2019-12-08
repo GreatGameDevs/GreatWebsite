@@ -1,0 +1,23 @@
+{{ "<!-- ABOUT -->" | safeHTML }}
+{{ with .Site.Params.about }}
+<section class="bg-primary" id="{{ .sectionid }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                {{ with .headline }}
+                <h2 class="section-heading">{{ . }}</h2>
+                {{ end }}
+                {{ if and .headline .description }}
+                <hr class="light">
+                {{ end }}
+                {{ with .description }}
+                <p0 class="text-faded">{{ . | markdownify }}</p0>
+                {{ end }}
+                {{ with .buttonText }}
+                <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

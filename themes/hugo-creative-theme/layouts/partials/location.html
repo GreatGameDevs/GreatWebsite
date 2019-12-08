@@ -1,0 +1,9 @@
+
+{{ with .Site.Params.location }}
+<section id="{{ .sectionid }}" class="no-padding">
+    <div id="location-map"
+        data-lat="{{ .latitude }}"
+        data-lon="{{ .longitude }}"
+        data-popup="{{ .popup }}"></div>
+</section>
+{{ end }}

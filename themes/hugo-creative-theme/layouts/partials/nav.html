@@ -1,0 +1,13 @@
+{{ "<!-- NAVIGATION -->" | safeHTML }}
+<nav id="mainNav" class="navbar navbar-expand-sm fixed-top">
+    {{ with .Site.Params.navigation.brand }}
+        <a class="navbar-brand page-scroll" href="#page-top">{{ . | markdownify }}</a>
+    {{ end }}
+    <ul class="navbar-nav">
+        {{ range .Site.Params.navigation.links }}
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="{{ .href }}">{{ .title }}</a>
+            </li>
+        {{ end }}
+    </ul>
+</nav>

@@ -1,0 +1,167 @@
+baseurl = "https://xmashero.netlify.com/"
+languageCode = "en-us"
+title = "Christmas Hero"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Christmas Hero"
+	subtitle = "Be as brave, smart and warm as the Santa."
+
+	# The path must be relative to the static folder
+	favicon = "favicon.png"
+
+	# Navigation
+	[params.navigation]
+		brand = "Christmas Hero"
+
+		[[params.navigation.links]]
+			title = "Story"
+			href = "#story"
+
+		[[params.navigation.links]]
+			title = "Features"
+			href = "#features"
+
+		[[params.navigation.links]]
+			title = "Scenes"
+			href = "#scenes"
+
+		[[params.navigation.links]]
+			title = "Team"
+			href = "#team"
+
+		# [[params.navigation.links]]
+		# 	title = "Contact"
+		# 	href = "#contact"
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Christmas Hero"
+		# subtitle   = "Be as brave, smart and warm as the Santa."
+		buttonText = "Find out more"
+
+	# About section
+	[params.about]
+		headline    = "Story"
+		description = "It is Christmas time and Christmas gifts are about to be delivered to the inhabitants in the village. Sadly, Santa and the reindeers has been in a minor mishap and the Christmas gifts have been strewn all over the world. This has made the spirit of Christmas fall and the world is about to miss Christmas and all that comes around if the Christmas gifts are not being delivered. By delivering gifts and fighting monsters the Christmas Spirit will gradually increase until it is fully restored. The task for the player is to bring back the spirit of Christmas and be a Christmas Hero."
+		buttonText  = "Get started!"
+		sectionid   = "story"
+
+	# Service section
+	[params.services]
+		headline = "Features"
+		sectionid = "features"
+
+        [[params.services.list]]
+            icon = "fas fa-cubes"
+            title = "Low-Poly Art"
+            description = "Our templates are updated regularly so they don't break."
+
+        [[params.services.list]]
+			icon = "fas fa-grin-stars"
+			title = "Child Friendly"
+			description = "You can use this theme as is, or you can make changes!"
+
+		[[params.services.list]]
+            icon = "fas fa-gifts"
+            title = "Festival Theme"
+            description = "We update dependencies to keep things fresh."
+
+        [[params.services.list]]
+            icon = "fas fa-chess"
+            title = "Easy Operation"
+            description = "You have to make your websites with love these days!"
+
+        [[params.services.list]]
+            icon = "fas fa-theater-masks"
+            title = "Emotional Roles"
+            description = "Our templates are updated regularly so they don't break."
+
+        [[params.services.list]]
+			icon = "fas fa-meteor"
+			title = "Fight Evil"
+			description = "You can use this theme as is, or you can make changes!"
+
+		[[params.services.list]]
+            icon = "fas fa-puzzle-piece"
+            title = "Solve Riddles"
+            description = "We update dependencies to keep things fresh."
+
+        [[params.services.list]]
+            icon = "fas fa-rainbow"
+            title = "Progressive World"
+            description = "You have to make your websites with love these days!"
+
+    # Portfolio modals
+	[params.portfolio]
+		sectionid = "scenes"
+
+		[params.portfolio.modal]
+			client = "Client"
+			date = "Date"
+			category = "Category"
+			buttonText = "Close"
+
+	# Service section
+	[params.team]
+		headline = "Team"
+		sectionid = "team"
+
+        [[params.team.list]]
+            img = "https://avatars0.githubusercontent.com/u/12912542"
+            title = "Akash Menon"
+
+        [[params.team.list]]
+            img = "https://avatars0.githubusercontent.com/u/38287092"
+			title = "Hedvig Fahlstedt"
+
+		[[params.team.list]]
+            img = "https://avatars0.githubusercontent.com/u/9079360"
+            title = "Jian Gu"
+
+        [[params.team.list]]
+            img = "https://avatars0.githubusercontent.com/u/43722195"
+            title = "Thelma Svenns"
+
+        [[params.team.list]]
+            img = "https://avatars0.githubusercontent.com/u/13755038"
+            title = "Timmy Nielsen"
+
+    # Aside section
+	[params.aside]
+		headline = "Be Christmas Hero Right Now"
+
+		[params.aside.button]
+			text = "Project Repo"
+			link = "//github.com/GreatGameDevs/GreatGame"
+
+	# Contact section
+	# [params.contact]
+	# 	headline = "Contact us"
+	# 	description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+	# 	phone = "123-456-6789"
+	# 	email = "feedback@startbootstrap.com"
+	# 	sectionid = "contact"
+
+	# Openstreetmap section
+	# [params.location]
+	# 	latitude  = 34.007850
+	# 	longitude = -118.499305
+	#   popup = "Our location"
+	#   sectionid = "location"
